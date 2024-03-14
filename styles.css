@@ -1,0 +1,15 @@
+.letter {
+    font-size: 35px;
+    color: #ffffff;
+    animation: bounce 1s infinite alternate;
+    text-shadow:#000000
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}

@@ -1,0 +1,79 @@
+body{
+    color: rgb(255, 255, 255);
+}
+datalist{
+    align-self: center;
+}
+
+body{
+    text-align: center;
+}
+
+body{
+    text-shadow: 1cqmax;
+}
+
+body{
+    background-image: -moz-element();
+}
+
+body{
+    cursor: cell;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ol{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ 
+.texto{
+    font-size: 135px;
+    background: linear-gradient(to right, #ff00c8 #0443f1) ;
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate; 
+    
+    
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+body{
+    h1{
+        animation: flip
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
+    border: 1px solid #ddd; /* borda */
+    border-radius: 5px;
+}
+
+.button {
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
